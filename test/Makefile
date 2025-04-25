@@ -9,3 +9,4 @@ ifndef GITHUB_ACTIONS
 endif
 
 .PHONY: all test units clean
+run
