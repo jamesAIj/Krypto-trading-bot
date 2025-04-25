@@ -55,4 +55,10 @@ jobs:
         continue-on-error: true
         with:
           coverage-reports: lcov.info
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          project-token:           
+          # Add the secret to your GitHub repository
+          
+          gh secret set CODACY_PROJECT_TOKEN --body "your_codacy_project_token_here"
+          
+
+
