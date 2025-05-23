@@ -58,7 +58,7 @@ jobs:
           project-token:           
           # Add the secret to your GitHub repository
           
-          gh secret set CODACY_PROJECT_TOKEN --body "your_codacy_project_token_here"
+          # Ensure the CODACY_PROJECT_TOKEN secret is set in your repository settings
           
 
 
